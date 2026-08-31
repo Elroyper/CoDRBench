@@ -1,0 +1,38 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*
+secrets*
+
+# Private review and model output
+/private/
+/staging/
+/audit_outputs/
+/review_outputs/
+/outputs/
+/artifacts/
+
+# Paper drafts and local source material
+/*.pdf
+/*.docx
+/*.tex
+
+# Publication guard: data files require an explicit .gitignore change
+/data/*
+!/data/README.md
