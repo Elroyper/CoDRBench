@@ -3,8 +3,9 @@
 **Concealed Deception Role-Play Benchmark**
 
 > [!IMPORTANT]
-> **The dataset has not been released yet.** This repository is currently a
-> private placeholder while the data and paper revision undergo final review.
+> **The dataset has not been released yet.** This repository is a public
+> documentation placeholder while the data and paper revision undergo final
+> review.
 
 CoDRBench is a research benchmark for studying concealed deception in
 role-playing language models. It accompanies the paper

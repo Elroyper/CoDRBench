@@ -35,5 +35,6 @@ versioned artifact or review record.
 - [ ] Add `CITATION.cff`, changelog, dataset card, and contribution guidance.
 - [ ] Create an immutable version tag and GitHub release.
 - [ ] Verify the release checksums from a fresh download.
-- [ ] Make the GitHub repository public.
+- [x] Make the GitHub repository public (documentation placeholder only; the
+      dataset itself is not uploaded).
 - [ ] Add the immutable repository/release URL to the revised paper and arXiv.
