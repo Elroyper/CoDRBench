@@ -10,7 +10,7 @@ of Reasoning Models*](https://arxiv.org/abs/2506.04909).
 ## Experiment 2: Open-Role Deception
 
 The corpus contains 248 constructed scenarios across nine professional domains
-and covers nearly 100 professional roles:
+and covers more than 100 distinct professional roles:
 
 | Split | Cases |
 |---|---:|
@@ -38,7 +38,7 @@ no model responses.
 
 ## Files
 
-- [`data/v1.0.0/`](data/v1.0.0/) — Experiment 2 train/test data, metadata, and checksums
+- [`data/v1.0.0/`](data/v1.0.0/) — Experiment 2 train/test data and metadata
 - [`docs/dataset_description.md`](docs/dataset_description.md) — dataset description
 
 ## Paper
@@ -49,4 +49,7 @@ of Reasoning Models*](https://arxiv.org/abs/2506.04909).
 
 ## License
 
-License information will be added in a subsequent repository update.
+The CoDRBench dataset and accompanying documentation are licensed under the
+[Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE).
+Please retain attribution and indicate any changes when sharing or adapting the
+materials.

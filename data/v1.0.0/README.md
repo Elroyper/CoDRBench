@@ -15,4 +15,7 @@ fields:
 
 The files do not contain model responses.
 
-SHA-256 hashes are listed in `checksums.sha256`.
+## License
+
+The dataset is licensed under the [Creative Commons Attribution 4.0
+International license (CC BY 4.0)](../../LICENSE).

@@ -8,6 +8,11 @@
     "arxiv": "2506.04909",
     "url": "https://arxiv.org/abs/2506.04909"
   },
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "spdx_id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "total_cases": 248,
   "splits": {
     "train": 188,
