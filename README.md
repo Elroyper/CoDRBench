@@ -5,8 +5,7 @@
 CoDRBench is a benchmark for studying strategic deception by AI assistants
 under professional role-playing conditions. It accompanies the paper
 [*When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations
-of Reasoning Models*](https://arxiv.org/abs/2506.04909) by Kai Wang, Yihao Zhang,
-and Meng Sun.
+of Reasoning Models*](https://arxiv.org/abs/2506.04909).
 
 ## Experiment 2: Open-Role Deception
 
@@ -42,23 +41,11 @@ no model responses.
 - [`data/v1.0.0/`](data/v1.0.0/) — Experiment 2 train/test data, metadata, and checksums
 - [`docs/dataset_description.md`](docs/dataset_description.md) — dataset description
 
-## Citation
+## Paper
 
-Please cite the associated paper:
-
-```bibtex
-@misc{wang2025whenthinkingllmslie,
-  title         = {When Thinking LLMs Lie: Unveiling the Strategic Deception
-                   in Representations of Reasoning Models},
-  author        = {Kai Wang and Yihao Zhang and Meng Sun},
-  year          = {2025},
-  eprint        = {2506.04909},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.AI},
-  doi           = {10.48550/arXiv.2506.04909},
-  url           = {https://arxiv.org/abs/2506.04909}
-}
-```
+This dataset accompanies the paper
+[*When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations
+of Reasoning Models*](https://arxiv.org/abs/2506.04909).
 
 ## License
 
