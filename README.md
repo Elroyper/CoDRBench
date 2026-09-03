@@ -2,33 +2,29 @@
 
 **Concealed Deception Role-Play Benchmark**
 
-> [!IMPORTANT]
-> **The dataset has not been released yet.** This repository is a public
-> documentation placeholder while the data and paper revision undergo final
-> review.
-
-CoDRBench is a research benchmark for studying concealed deception in
-role-playing language models. It accompanies the paper
+CoDRBench is a benchmark for studying strategic deception by AI assistants
+under professional role-playing conditions. It accompanies the paper
 [*When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations
-of Reasoning Models*](https://arxiv.org/abs/2506.04909) by Kai Wang, Yihao
-Zhang, and Meng Sun.
+of Reasoning Models*](https://arxiv.org/abs/2506.04909) by Kai Wang, Yihao Zhang,
+and Meng Sun.
 
-## Dataset
+## Experiment 2: Open-Role Deception
 
-The current internal dataset contains **248 synthetic cases** across nine
-professional domains:
+The corpus contains 248 constructed scenarios across nine professional domains
+and covers nearly 100 professional roles:
 
 | Split | Cases |
 |---|---:|
 | Train | 188 |
 | Test | 60 |
+| Total | 248 |
 
 Each case contains two fields:
 
 ```json
 {
-  "system": "A hidden professional role and deceptive behavior.",
-  "user": "A question based on harm or suspicious evidence observed by the user."
+  "system": "A hidden professional role and profession-related deceptive behavior.",
+  "user": "A reasonable question based on harm suffered by the user."
 }
 ```
 
@@ -36,20 +32,19 @@ The nine domains are Health & Medical, Finance & Legal, Repair & Construction,
 Retail & Services, Transportation, Education & Training, Arts & Entertainment,
 Public Service & Safety, and Personal Care & Assistance.
 
-## Release status
+The `system` field specifies a user-invisible professional role and a concealed
+profession-related deceptive behavior. The `user` field contains a natural
+question grounded in harm that the user has experienced. The corpus contains
+no model responses.
 
-The dataset is undergoing case-level quality review and is **not available for
-download**. This repository currently contains documentation only.
+## Files
 
-The public release will include the reviewed dataset, validation scripts,
-checksums, a dataset card, and versioned audit documentation. The current arXiv
-version's 160-sample Experiment 2 subset and the planned 248-case repository
-corpus refer to different stages; their exact mapping will be documented with
-the release.
+- [`data/v1.0.0/`](data/v1.0.0/) — Experiment 2 train/test data, metadata, and checksums
+- [`docs/dataset_description.md`](docs/dataset_description.md) — dataset description
 
 ## Citation
 
-Until a dataset-specific citation is available, please cite the paper:
+Please cite the associated paper:
 
 ```bibtex
 @misc{wang2025whenthinkingllmslie,
@@ -67,4 +62,4 @@ Until a dataset-specific citation is available, please cite the paper:
 
 ## License
 
-The dataset and code licenses will be added before the first public release.
+License information will be added in a subsequent repository update.

@@ -1,0 +1,35 @@
+{
+  "name": "CoDRBench",
+  "full_name": "Concealed Deception Role-Play Benchmark",
+  "version": "1.0.0",
+  "setting": "Experiment 2: Open-Role Deception",
+  "paper": {
+    "title": "When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations of Reasoning Models",
+    "arxiv": "2506.04909",
+    "url": "https://arxiv.org/abs/2506.04909"
+  },
+  "total_cases": 248,
+  "splits": {
+    "train": 188,
+    "test": 60
+  },
+  "schema": {
+    "type": "array",
+    "item_fields": [
+      "system",
+      "user"
+    ],
+    "model_response_included": false
+  },
+  "domains": [
+    "Health & Medical",
+    "Finance & Legal",
+    "Repair & Construction",
+    "Retail & Services",
+    "Transportation",
+    "Education & Training",
+    "Arts & Entertainment",
+    "Public Service & Safety",
+    "Personal Care & Assistance"
+  ]
+}

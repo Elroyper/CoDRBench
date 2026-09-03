@@ -33,6 +33,4 @@ secrets*
 /*.docx
 /*.tex
 
-# Publication guard: data files require an explicit .gitignore change
-/data/*
-!/data/README.md
+# Published dataset files under data/ are intentionally tracked.
